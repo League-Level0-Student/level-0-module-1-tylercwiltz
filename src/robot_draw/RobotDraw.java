@@ -1,5 +1,6 @@
 package robot_draw;
 
+import java.awt.Color;
 import java.awt.event.KeyEvent;
 
 import org.jointheleague.graphical.robot.Robot;
@@ -13,25 +14,25 @@ public class RobotDraw {
 		if(keyPressed==KeyEvent.VK_UP) {
 			//rob.setAngle();
 			//rob.setPenColor(Color.);
-			//rob.move();
+			rob.move(10);
 		}
 		// If the down arrow is pressed, move the Robot down.
 		if(keyPressed==KeyEvent.VK_DOWN) {
 			//rob.setAngle();
 			//rob.setPenColor(Color.);
-			//rob.move();
+			rob.move(10);
 		}
 		// If the left arrow is pressed, make the Robot go left.
 		if(keyPressed==KeyEvent.VK_LEFT) {
 			//rob.setAngle();
 			//rob.setPenColor(Color.);
-			//rob.move();
+			rob.move(10);
 		}
 		// If right is pressed, move the Robot right.
 		if(keyPressed==KeyEvent.VK_RIGHT) {
 			//rob.setAngle();
 			//rob.setPenColor(Color.);
-			//rob.move();
+			rob.move(10);
 		}
 	}
 }

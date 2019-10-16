@@ -4,13 +4,10 @@
 
 package robot_draw;
 
-import java.applet.AudioClip;
-import java.awt.Color;
 import java.awt.KeyEventDispatcher;
 import java.awt.KeyboardFocusManager;
 import java.awt.event.KeyEvent;
 
-import javax.swing.JApplet;
 import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
@@ -38,10 +35,6 @@ public class RobotDrawRunner implements KeyEventDispatcher {
 	}
 
 	public static void main(String[] args) {
-		int[] r = new int[]{4,5,6};
-		for(int i = 0; i < r.length; i++ ) {
-			System.out.println(r[i]);
-		}
 		new RobotDrawRunner().controlTheRobot();
 	}
 
